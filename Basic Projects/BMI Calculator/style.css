@@ -1,0 +1,47 @@
+main{
+    width: 100vh;
+    height: 100vh;
+    background-image: url(./BG.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 70vh;
+    width: 26vh;
+    backdrop-filter: blur(10px);
+    background-color: rgb(255,255,255,0.2);
+    padding: 1rem;
+    border-radius: 12px;
+    border: 2px solid #fff;
+    padding-left: 30px;
+}
+
+h1{
+    border-radius: 12px;
+    font-size: 2.3rem;
+    color: rgb(5,5,6);
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+label{
+    font-weight: 800;
+    color: black;
+    font-size: 18px;
+}
+
+input{
+    padding: 1px 7px;
+    border-radius: 4px;
+    font-weight: 700;
+    border: 1px solid black;
+}
+
+p{
+    padding: .2rem;
+    font-size: 16px;
+    color: rgb(249,249,249);
+}
