@@ -9,7 +9,7 @@ main{
 }
 
 .container{
-    height: 70vh;
+    height: 78vh;
     width: 40vh;
     backdrop-filter: blur(10px);
     background-color: rgb(255,255,255,0.2);
@@ -24,7 +24,6 @@ h1{
     font-size: 2.3rem;
     color: rgb(5,5,6);
     padding-left: 15px;
-    padding-top: 25px;
 }
 
 label{
@@ -38,10 +37,17 @@ input{
     border-radius: 4px;
     font-weight: 700;
     border: 1px solid black;
+    
 }
 
 p{
     padding: .2rem;
     font-size: 16px;
     color: rgb(249,249,249);
+}
+
+#result{
+    background-color:white;
+    font-size: 25px;
+    font-weight: bold;
 }
