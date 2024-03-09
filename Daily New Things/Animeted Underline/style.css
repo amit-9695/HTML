@@ -1,0 +1,27 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 10px;
+}
+
+h1{
+    font-weight: 900;
+    position: relative;
+}
+
+h1::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 0%;
+    background-color:#f20ec4;
+    transition: all ease 1s;
+}
+
+h1:hover::after{
+    width:30%;
+}

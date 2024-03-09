@@ -1,7 +1,7 @@
 main{
-    width: 100vh;
+    /* width: 100vh; */
     height: 100vh;
-    background-image: url(./BG.jpg);
+    background-image: url(./BG2.jpg);
     background-size: 100% 100%;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ main{
 
 .container{
     height: 70vh;
-    width: 26vh;
+    width: 40vh;
     backdrop-filter: blur(10px);
     background-color: rgb(255,255,255,0.2);
     padding: 1rem;
