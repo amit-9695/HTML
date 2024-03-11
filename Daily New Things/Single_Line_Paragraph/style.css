@@ -1,0 +1,10 @@
+p{
+    /* It is used to make all the texts of the paragraph in single Line */
+    white-space: nowrap;  
+
+    /* It is used to hide all the overflow text */
+    overflow: hidden;
+
+    /* It add dots(...) after the end of the line of text, that represents that the are overflow here and some texts are hide */
+    text-overflow: ellipsis;
+}
