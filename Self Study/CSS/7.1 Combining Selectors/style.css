@@ -1,5 +1,26 @@
 /* Write your code here: */
-
 h1,h2{
     color: blueviolet;
 }
+
+.box>p{
+    color: firebrick;
+}
+
+.box li{
+    color: blue;
+}
+
+.box li.done{
+    color: seagreen;
+}
+
+ul>p.done{
+    font-size: 0.5rem;
+}
+
+/* we can also use this
+ul p.don{
+    font-size: 0.5rem;
+ }
+  */
