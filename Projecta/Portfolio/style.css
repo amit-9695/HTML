@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Slab:wght@600&family=Rubik&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.main {
+    position: fixed;
+    background-color: rgb(248, 251, 251);
+    width: 100%;
+    height: 10%;
+}
+
+.logo {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.ul a:hover {
+    color: red;
+}
+
+.flex {
+    display: flex;
+}
+.size {
+    width: 39px;
+    padding-right: 10px;
+}
+
+.size1 {
+    width: 29px;
+    padding-right: 10px;
+}
+
+.ul {
+    list-style: none;
+    color: rgb(44, 44, 44);
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+    font: size 20px;
+}
+
+.btn1 {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    line-height: 70px;
+    gap: 20px;
+    width: 154px;
+    margin-right: 40px;
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 2px;
+    
+}
+.first-part-text {
+    padding: 10.5%;
+    padding-left: 12%;
+    width: 58%;
+}
+
+.second-part-image {
+    margin-top: 0.8%;
+    width: 58%;
+
+}
+
+.text-1 {
+    font-size: 39px;
+}
+
+.text-2 {
+    color: rgb(81, 80, 80);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.social-media-links {
+    line-height: 50px;
+}
+
+.about-first-part {
+    width: 40%;
+    margin-top: 30px;
+    padding-left: 13%;
+
+}
+
+.about-Second-part {
+    margin-top: 0px;
+    width: 60%;
+}
+
+.contact-first-part {
+
+    width: 45%;
+    padding-left: 10%;
+}
+
+.contact-Second-part {
+    width: 40%;
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
+.contact-design {
+    width: 90%;
+    line-height: 32px;
+    padding-left: 8px;
+    font-family: serif;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+.email-phoneno {
+    margin-top: 12%;
+}
+
+.contact-links {
+    margin-top: 10%;
+}
+
+
+
+
+
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-first-part {
+    width: 35%;
+    margin-left: 12%;
+}
+
+.skill-second-part {
+    width: 35%;
+    margin-right: 12%;
+}
+
+.professional-skills {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.coding-skills {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.myskills {
+    margin-top: 10%;
+    margin-left: 46%;
+}
+
+span {
+    color: blueviolet;
+}
+
+.H-90 {
+    margin-left: 77%;
+}
+
+.C-80 {
+    margin-left: 80%;
+}
+
+.J-50 {
+    margin-left: 67%;
+}
+
+.J-60 {
+    margin-left: 78.5%;
+}
+
+.W-80 {
+    margin-left: 55%;
+}
+
+.P-70 {
+    margin-left: 58%;
+}
+
+.D-60 {
+    margin-left: 81%;
+}
+
+.W-50 {
+    margin-left: 67%;
+}
+
+.coding-skills:hover {
+    width: 97%;
+    background-color: rgb(245, 202, 239);
+}
+
+.professional-skills:hover {
+    width: 97%;
+    background-color: rgb(245, 212, 241);
+}
+
+.web {
+    border: 2px solid black;
+    width: 80%;
+    height: 25px;
+    border-radius: 7px;
+    background-color: rgb(246, 137, 224);
+
+}
+
+.problem {
+    border: 2px solid black;
+    height: 25px;
+    border-radius: 7px;
+    background-color: rgb(246, 137, 224);
+    width: 70%;
+}
+
+.dsa {
+    border: 2px solid black;
+    height: 25px;
+    border-radius: 7px;
+    background-color: rgb(246, 137, 224);
+    width: 60%;
+}
+
+.webdesign {
+    border: 2px solid black;
+    width: 50%;
+    height: 25px;
+    border-radius: 7px;
+    background-color: rgb(246, 137, 224);
+}
+
+.html {
+    border: 2px solid black;
+    width: 90%;
+    height: 25px;
+    border-radius: 7px;
+    background-color: rgb(246, 137, 224);
+}
+
+.css {
+    border: 2px solid black;
+    width: 80%;
+    height: 25px;
+    border-radius: 7px;
+    background-color: rgb(246, 137, 224);
+}
+
+.java {
+    border: 2px solid black;
+    width: 60%;
+    height: 25px;
+    border-radius: 7px;
+    background-color: rgb(246, 137, 224);
+}
+
+.javascript {
+    border: 2px solid black;
+    width: 50%;
+    height: 25px;
+    border-radius: 7px;
+    background-color: rgb(246, 137, 224);
+}
+.body{
+    width: 100%;
+    min-height: 100vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    padding: 35px 13%;
+}
+main.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.col header.title{
+    color: blueviolet;
+    padding: 0px 0px 5px 0px;
+}
+.cols .container{
+    padding: 0px 30px ;
+    border-left: 2px solid #6e1e1e;
+}
+.box{
+    padding: 20px;
+    border: 2px solid #161515;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 2s;
+    margin-bottom: 20px;
+}
+.box h4{
+    color: blueviolet;
+}
+.box h3{
+font-size: 19px;
+color: #444;
+}
+.box p{
+    line-height: 1.2;
+    color: #666;
+    font-size: 17px;
+}
+.project{
+    margin-top: 4%;
+}
+.box1{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 350px;
+    background-color: #ffffff;
+    cursor: pointer;  
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 20px rgb(40, 40, 40);
+}
+.project-part{
+    margin-left: 9%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1100px;
+}
+.box1 a img{
+    width: 300px;
+}
+.box1 a img:hover{
+    color: red;
+}
+.box1 a p{
+    display: inline-block;
+}
+.box1 a img:hover{
+    color: blue;
+}
+.project h2{
+    margin-left: 44%;
+    margin-bottom: 5%;
+}
+
+.footer{
+    margin-top: 20px;
+    height: 41px;
+    padding-top: 20px;
+    background-color: blueviolet;
+    text-align: center;
+}
+.footer span{
+   
+    color: white;
+}
